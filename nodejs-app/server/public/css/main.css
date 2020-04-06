@@ -1,0 +1,106 @@
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  background-color: #f5f5f5;
+}
+a {
+  text-decoration: none;
+}
+li a {
+  text-decoration: underline;
+  color: #0288d1;
+}
+ .demo-card-wide.mdl-card {
+    width: 300px;
+    padding-bottom: 50px;
+  }
+ .demo-card-wide1.mdl-card{
+	width:620px;
+  }
+
+.mdl-grid {
+  max-width: 1024px;
+  margin: auto;
+}
+.mdl-layout__header-row {
+  padding: 0;
+}
+.quickstart-user-details-container, .user-details-container {
+  margin-top: 20px;
+  line-height: 25px;
+}
+.update, #quickstart-sign-in-status, #sign-in-status, #quickstart-tenant-id {
+  font-weight: bold;
+}
+pre {
+  overflow-x: scroll;
+  line-height: 18px;
+}
+code {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+#logo_title{
+  position: absolute;
+  left: 400px;
+  top: 47px;
+  color: white;
+}
+
+.close-icon {
+  cursor: pointer;
+  float: right; 
+  width: 20px;
+}
+.gcip-heading {
+  background: none;
+  padding-left: 10px;
+}
+
+#verification-code-form {
+  display:none;
+}
+#recaptcha-container {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#verify-code-button, #cancel-verify-code-button {
+  margin-left: 20px;
+}
+#sign-in-card {
+  z-index: 2;
+}
+#quickstart-tenant-card {
+  min-height: 500px;
+}
+#quickstart-tenant-modal-title {
+  margin: 0px;
+  padding: 2px;
+  text-align: center;
+}
+#logo{
+  left: 0;
+  position: absolute
+}
+#sign-out-button {
+  color: white;
+  top: 35px;
+  right: 100px;
+  position: absolute;
+}
+
+@media screen and (max-width: 860px) {
+  #sign-out-button {
+    visibility: hidden;
+  }
+  #small-out {
+    visibility: visible;
+    top: 3%;
+    right: 5%;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 860px) {
+  #small-out {
+    visibility: hidden;
+  }
+}
